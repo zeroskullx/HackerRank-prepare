@@ -4,6 +4,7 @@ import {matchingStringsExec} from "./hackerrank/data_structures/arrays/sparse-ar
 import {gradingStudentsExec} from "./hackerrank/algorithms/Implementation/Grading-Students";
 
 import {kangaroo} from "./hackerrank/algorithms/Implementation/Number-Line-Jumps";
+import {isPrimeExec} from "./others/isPrime";
 
 //console.log(gradingStudents([73, 67, 38, 33])); // [75, 67, 40, 33]
 
@@ -17,3 +18,5 @@ import {kangaroo} from "./hackerrank/algorithms/Implementation/Number-Line-Jumps
 //gradingStudentsExec();
 //rotateLeftExec();
 //matchingStringsExec();
+
+isPrimeExec();
