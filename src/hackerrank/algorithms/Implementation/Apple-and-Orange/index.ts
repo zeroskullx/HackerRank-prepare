@@ -9,7 +9,7 @@
  *  5. INTEGER_ARRAY apples | distâncias em que cada maçã cai da árvore
  *  6. INTEGER_ARRAY oranges | distâncias em que cada laranja cai da árvore
  */
-export function countApplesAndOranges(
+function countApplesAndOranges(
   s: number,
   t: number,
   a: number,
@@ -26,9 +26,19 @@ export function countApplesAndOranges(
     (orange) => b + orange >= s && b + orange <= t
   ).length;
 
-  console.log(appleCount);
+  console.log("Total de maça:", appleCount);
 
-  console.log(orangeCount);
+  console.log("Total de laranja:", orangeCount);
 
   return;
 }
+/**
+ * Teste 1, esperado [1, 1]
+ */
+export const countApplesAndOrangesExec = () => {
+  console.log("Teste 1");
+  countApplesAndOranges(7, 11, 5, 15, [-2, 2, 1], [5, -6]); // [1, 1]
+
+  console.log("Teste 2");
+  countApplesAndOranges(7, 11, 5, 15, [2, 3, 1, 4], [5, -8, 7, -6]); // [3, 2]
+};
