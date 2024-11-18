@@ -1,4 +1,4 @@
-export function gradingStudents(grades: number[]): number[] {
+function gradingStudents(grades: number[]): number[] {
   // Write your code here
 
   const result = grades.map((grade) => {
@@ -17,3 +17,14 @@ export function gradingStudents(grades: number[]): number[] {
 
   return result;
 }
+
+/**
+ * Teste 01 esperado [75, 67, 40, 33]
+ *
+ * Teste 02 esperado [75, 67, 40, 33, 40]
+ */
+export const gradingStudentsExec = () => {
+  console.log("Teste 01:", gradingStudents([73, 67, 38, 33]));
+
+  console.log("Teste 02:", gradingStudents([73, 67, 38, 33, 40]));
+};

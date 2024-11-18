@@ -1,8 +1,9 @@
 import {countApplesAndOrangesExec} from "./hackerrank/algorithms/Implementation/Apple-and-Orange";
-import {gradingStudents} from "./hackerrank/algorithms/Implementation/Grading-Students";
-import {kangaroo} from "./hackerrank/algorithms/Implementation/Number-Line-Jumps";
 import {rotateLeftExec} from "./hackerrank/data_structures/arrays/Left_Rotation";
 import {matchingStringsExec} from "./hackerrank/data_structures/arrays/sparse-arrays";
+import {gradingStudentsExec} from "./hackerrank/algorithms/Implementation/Grading-Students";
+
+import {kangaroo} from "./hackerrank/algorithms/Implementation/Number-Line-Jumps";
 
 //console.log(gradingStudents([73, 67, 38, 33])); // [75, 67, 40, 33]
 
@@ -12,6 +13,7 @@ import {matchingStringsExec} from "./hackerrank/data_structures/arrays/sparse-ar
 // console.log(rotateLeft(14, [1, 2, 3, 4, 5])); // [5, 1, 2, 3, 4]
 // console.log(rotateLeft(2, [1, 2, 3, 4, 5])); // [3, 4, 5, 1, 2]
 
-countApplesAndOrangesExec();
+//countApplesAndOrangesExec();
+//gradingStudentsExec();
 //rotateLeftExec();
 //matchingStringsExec();
