@@ -9,6 +9,7 @@ import {
   arrayManipulationFromQueriesTest,
   arrayManipulationTest,
 } from "./hackerrank/data_structures/arrays/crush-array-manipulation";
+import {treeTest} from "./hackerrank/data_structures/trees/Huffman-Decoding";
 
 //console.log(gradingStudents([73, 67, 38, 33])); // [75, 67, 40, 33]
 
@@ -22,8 +23,9 @@ import {
 //gradingStudentsExec();
 //rotateLeftExec();
 //matchingStringsExec();
-arrayManipulationTest();
-arrayManipulationFromQueriesTest();
+// arrayManipulationTest();
+// arrayManipulationFromQueriesTest();
+treeTest();
 
 //------------------Others------------------
 //isPrimeExec();
