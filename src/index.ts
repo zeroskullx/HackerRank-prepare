@@ -5,6 +5,10 @@ import {gradingStudentsExec} from "./hackerrank/algorithms/Implementation/Gradin
 
 import {kangaroo} from "./hackerrank/algorithms/Implementation/Number-Line-Jumps";
 import {isPrimeExec} from "./others/isPrime";
+import {
+  arrayManipulationFromQueriesTest,
+  arrayManipulationTest,
+} from "./hackerrank/data_structures/arrays/crush-array-manipulation";
 
 //console.log(gradingStudents([73, 67, 38, 33])); // [75, 67, 40, 33]
 
@@ -18,5 +22,8 @@ import {isPrimeExec} from "./others/isPrime";
 //gradingStudentsExec();
 //rotateLeftExec();
 //matchingStringsExec();
+arrayManipulationTest();
+arrayManipulationFromQueriesTest();
 
-isPrimeExec();
+//------------------Others------------------
+//isPrimeExec();
