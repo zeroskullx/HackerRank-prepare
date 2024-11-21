@@ -1,4 +1,4 @@
-### Código Explicado:
+# Código Explicado
 
 ```typescript
 function rotateLeft(d: number, arr: number[]): number[] {
@@ -16,7 +16,7 @@ Agora, explicando cada linha em detalhes:
 
 ---
 
-### 1. **Entrada da Função**:
+## 1. **Entrada da Função**
 
 ```typescript
 function rotateLeft(d: number, arr: number[]): number[] {
@@ -29,7 +29,7 @@ function rotateLeft(d: number, arr: number[]): number[] {
 
 ---
 
-### 2. **Reduzir o Número de Rotações**:
+### 2. **Reduzir o Número de Rotações**
 
 ```typescript
 const rotations = d % arr.length;
@@ -48,7 +48,7 @@ const rotations = d % arr.length;
 
 ---
 
-### 3. **Fatiar o Array**:
+### 3. **Fatiar o Array**
 
 ```typescript
 const rotatedArray = arr.slice(rotations).concat(arr.slice(0, rotations));
@@ -56,7 +56,7 @@ const rotatedArray = arr.slice(rotations).concat(arr.slice(0, rotations));
 
 - Aqui dividimos o array em **duas partes** e depois as juntamos de forma invertida.
 
-#### 3.1 **Primeira Parte**:
+#### 3.1 **Primeira Parte**
 
 ```typescript
 arr.slice(rotations);
@@ -70,7 +70,7 @@ arr.slice(rotations);
   - Se \( arr = [1, 2, 3, 4, 5] \) e \( rotations = 4 \):
     - `arr.slice(4)` retorna `[5]` (do índice 4 ao final).
 
-#### 3.2 **Segunda Parte**:
+#### 3.2 **Segunda Parte**
 
 ```typescript
 arr.slice(0, rotations);
@@ -86,7 +86,7 @@ arr.slice(0, rotations);
 
 ---
 
-### 4. **Concatenar as Partes**:
+### 4. **Concatenar as Partes**
 
 ```typescript
 .concat()
@@ -104,7 +104,7 @@ arr.slice(0, rotations);
 
 ---
 
-### 5. **Retornar o Resultado**:
+### 5. **Retornar o Resultado**
 
 ```typescript
 return rotatedArray;
@@ -114,7 +114,7 @@ return rotatedArray;
 
 ---
 
-### Exemplo Completo Passo a Passo:
+### Exemplo Completo Passo a Passo
 
 Dado \( arr = [1, 2, 3, 4, 5] \) e \( d = 4 \):
 
@@ -130,17 +130,17 @@ Dado \( arr = [1, 2, 3, 4, 5] \) e \( d = 4 \):
 
 ---
 
-# O que seria %?
+## O que seria %?
 
 O símbolo `%` em programação representa o **operador de módulo** (ou resto da divisão). Ele retorna o **resto** de uma divisão inteira.
 
-### Como Funciona:
+## Como Funciona?
 
 Se você fizer \( a \% b \), o resultado será o resto da divisão de \( a \) por \( b \). Isso significa que ele calcula **quanto sobra depois de dividir \( a \) por \( b \)**.
 
 ---
 
-### Exemplos:
+### Exemplos
 
 1. **Exemplo simples:**
 
@@ -170,7 +170,7 @@ No caso do **problema de rotação à esquerda**, usamos \( d \% n \) para calcu
 
 ---
 
-### Exemplo no problema:
+### Exemplo no problema
 
 Se você tem um array de 5 elementos (\( n = 5 \)) e quer rotacionar 7 vezes (\( d = 7 \)):
 
