@@ -1,6 +1,7 @@
 //------------------Others------------------
 //isPrimeExec();
 
+import {getTotalXExec} from "./hackerrank/typescript/algorithms/Implementation/Between-Two-Sets";
 import {rotateLeftExec} from "./hackerrank/typescript/data_structures/arrays/Left_Rotation";
 
 // const input = [1, 2, 3, 4, 5];
@@ -20,4 +21,5 @@ import {rotateLeftExec} from "./hackerrank/typescript/data_structures/arrays/Lef
 
 /*********************************** TESTE */
 
-rotateLeftExec();
+//rotateLeftExec();
+getTotalXExec();
